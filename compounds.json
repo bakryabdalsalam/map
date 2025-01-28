@@ -9,16 +9,10 @@
         "units_available": "Contact for availability",
         "amenities": ["pool", "gym", "beach", "security", "spa", "golf course"],
         "completion_date": "Completed",
-        "website": "https://www.addresshotels.com/en/resorts/address-marassi-golf-resort/",
+        "website": "https://www.example.com/marassi",
         "images": [
-            {
-                "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
-                "caption": "Resort Exterior"
-            },
-            {
-                "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
-                "caption": "Pool View"
-            }
+            {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg", "caption": "Resort Exterior"},
+            {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg", "caption": "Pool View"}
         ]
     },
     {
@@ -31,16 +25,59 @@
         "units_available": "Limited availability",
         "amenities": ["pool", "gym", "beach", "security", "golf course", "diving center"],
         "completion_date": "Completed",
-        "website": "https://www.oberoihotels.com/hotels-in-sahl-hasheesh/",
+        "website": "https://www.example.com/sahl",
         "images": [
-            {
-                "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-12-1.png",
-                "caption": "Resort Exterior"
-            },
-            {
-                "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
-                "caption": "Beach View"
-            }
+            {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-12-1.png", "caption": "Resort Exterior"},
+            {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png", "caption": "Beach View"}
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Alamein Oasis",
+        "location": [30.812, 28.936],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 22000000,
+        "price": "From EGP 22,000,000",
+        "units_available": "Available",
+        "amenities": ["pool", "kids area", "beach", "security", "tennis court"],
+        "completion_date": "2025-Q2",
+        "website": "https://www.example.com/alamein",
+        "images": [
+            {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg", "caption": "Main Entrance"},
+            {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png", "caption": "Recreational Area"}
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Hacienda Bay",
+        "location": [31.422, 29.785],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 28500000,
+        "price": "From EGP 28,500,000",
+        "units_available": "Limited units",
+        "amenities": ["private beach", "marina", "spa", "gym", "24/7 security"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/hacienda",
+        "images": [
+            {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-12-1.png", "caption": "Aerial View"},
+            {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg", "caption": "Beach Club"}
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Coral Heights",
+        "location": [27.128, 33.802],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 19500000,
+        "price": "From EGP 19,500,000",
+        "units_available": "Pre-sale",
+        "amenities": ["diving center", "spa", "infinity pool", "kids club"],
+        "completion_date": "2026-Q1",
+        "website": "https://www.example.com/coral",
+        "images": [
+            {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png", "caption": "Lobby Area"},
+            {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-12-1.png", "caption": "Residential Units"}
         ]
     }
+
 ]
