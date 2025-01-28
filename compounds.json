@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Marassi Resort",
+        "location": [31.505, 29.924],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 25000000,
+        "price": "From EGP 25,000,000",
+        "units_available": "Contact for availability",
+        "amenities": ["pool", "gym", "beach", "security", "spa", "golf course"],
+        "completion_date": "Completed",
+        "website": "https://www.addresshotels.com/en/resorts/address-marassi-golf-resort/",
+        "images": [
+            {
+                "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+                "caption": "Resort Exterior"
+            },
+            {
+                "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+                "caption": "Pool View"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sahl Hasheesh",
+        "location": [27.064, 33.891],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 18000000,
+        "price": "From EGP 18,000,000",
+        "units_available": "Limited availability",
+        "amenities": ["pool", "gym", "beach", "security", "golf course", "diving center"],
+        "completion_date": "Completed",
+        "website": "https://www.oberoihotels.com/hotels-in-sahl-hasheesh/",
+        "images": [
+            {
+                "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-12-1.png",
+                "caption": "Resort Exterior"
+            },
+            {
+                "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+                "caption": "Beach View"
+            }
+        ]
+    }
+]

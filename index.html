@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahel Region Compounds Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <style>
+        /* Updated CSS with improved styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: #f5f5f5;
+        }
+
+        #map-container {
+            display: flex;
+            height: 100vh;
+            position: relative;
+        }
+
+        #sidebar {
+            width: 350px;
+            background: #ffffff;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+            padding: 25px;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+
+        #map {
+            flex: 1;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .filter-section {
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.5rem;
+            padding: 15px 25px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: none;
+            z-index: 1001;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .compound-marker {
+            background: #e74c3c;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            text-align: center;
+            color: white;
+            line-height: 32px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .compound-marker:hover {
+            transform: scale(1.2) rotate(15deg);
+            background: #c0392b;
+        }
+
+        .compound-popup {
+            min-width: 300px;
+        }
+
+        .compound-popup img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .price-slider {
+            width: 100%;
+            height: 5px;
+            border-radius: 5px;
+        }
+
+        .amenity-filter {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .amenity-filter label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px;
+            background: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .amenity-filter label:hover {
+            background: #f0f0f0;
+        }
+
+        @media (max-width: 768px) {
+            #map-container {
+                flex-direction: column-reverse;
+            }
+
+            #sidebar {
+                width: 100%;
+                height: 40vh;
+                box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+            }
+
+            #map {
+                height: 60vh;
+            }
+        }
+
+        /* New features */
+        .reset-filters {
+            margin-top: 15px;
+            padding: 8px 15px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .reset-filters:hover {
+            background: #2980b9;
+        }
+
+        .carousel-controls {
+            display: flex;
+            gap: 5px;
+            margin-top: 10px;
+        }
+
+        .carousel-btn {
+            padding: 5px 10px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading">Loading compounds data...</div>
+    <div id="map-container">
+        <div id="sidebar">
+            <h2 style="margin-bottom: 20px; color: #2c3e50;">Sahel Region Compounds</h2>
+            <div class="filter-section">
+                <h3>Price Range</h3>
+                <input type="range" id="priceRange" class="price-slider" min="0" max="10000000" step="500000">
+                <div id="priceValue" style="margin-top: 10px; font-weight: bold; color: #3498db;">Max Price: EGP 10,000,000</div>
+            </div>
+            <div class="filter-section">
+                <h3>Amenities</h3>
+                <div class="amenity-filter">
+                    <label><input type="checkbox" value="pool"> Swimming Pool</label>
+                    <label><input type="checkbox" value="gym"> Gym</label>
+                    <label><input type="checkbox" value="beach"> Private Beach</label>
+                    <label><input type="checkbox" value="security"> 24/7 Security</label>
+                    <label><input type="checkbox" value="spa"> Spa</label>
+                    <label><input type="checkbox" value="golf course"> Golf Course</label>
+                </div>
+                <button class="reset-filters" onclick="resetFilters()">Reset Filters</button>
+            </div>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script>
+        // Initialize variables
+        let map;
+        let markersCluster;
+        let compounds = [];
+        const loadingElement = document.querySelector('.loading');
+
+        // Fetch compounds data from JSON
+        async function fetchCompoundsData() {
+            try {
+                loadingElement.classList.add('active');
+                const response = await fetch('compounds.json');
+                compounds = await response.json();
+                initMap();
+                setupFilters();
+            } catch (error) {
+                console.error('Error loading compounds data:', error);
+                loadingElement.textContent = 'Error loading data. Please try again later.';
+            } finally {
+                loadingElement.classList.remove('active');
+            }
+        }
+
+        // Initialize map with clustering
+        function initMap() {
+            map = L.map('map').setView([27.064, 33.891], 6);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+
+            markersCluster = L.markerClusterGroup({
+                spiderfyOnMaxZoom: true,
+                showCoverageOnHover: false,
+                zoomToBoundsOnClick: true
+            });
+
+            compounds.forEach(compound => {
+                const marker = L.marker(compound.location, {
+                    icon: L.divIcon({
+                        className: 'compound-marker',
+                        html: `<i class="fas fa-home"></i>`
+                    })
+                }).bindPopup(createPopupContent(compound));
+                
+                marker.compoundData = compound; // Attach compound data to marker
+                markersCluster.addLayer(marker);
+            });
+
+            map.addLayer(markersCluster);
+        }
+
+        // Create popup content with carousel controls
+        function createPopupContent(compound) {
+            return `
+                <div class="compound-popup">
+                    <h3>${compound.name}</h3>
+                    <div class="image-carousel" style="position: relative;">
+                        ${compound.images.map((img, index) => `
+                            <img src="${img.url}" 
+                                 alt="${img.caption}" 
+                                 style="${index > 0 ? 'display: none;' : ''}"
+                                 class="carousel-image">
+                        `).join('')}
+                        <div class="carousel-controls">
+                            ${compound.images.map((_, index) => `
+                                <button class="carousel-btn" 
+                                        onclick="showImage(${index}, this.parentElement.parentElement)">
+                                    ${index + 1}
+                                </button>
+                            `).join('')}
+                        </div>
+                    </div>
+                    <p><strong>📍 Location:</strong> ${compound.location_name}</p>
+                    <p><strong>💰 Price:</strong> ${compound.price}</p>
+                    <p><strong>🏠 Units Available:</strong> ${compound.units_available}</p>
+                    <p><strong>🏆 Amenities:</strong> ${compound.amenities.join(', ')}</p>
+                    <p><strong>📅 Completion Date:</strong> ${compound.completion_date}</p>
+                    ${compound.website ? `
+                    <p style="margin-top: 15px;">
+                        <a href="${compound.website}" 
+                           target="_blank" 
+                           style="background: #3498db; color: white; padding: 8px 15px; 
+                                  border-radius: 5px; text-decoration: none;">
+                            Visit Website
+                        </a>
+                    </p>` : ''}
+                </div>
+            `;
+        }
+
+        // Carousel controls function
+        window.showImage = (index, popup) => {
+            const images = popup.querySelectorAll('.carousel-image');
+            const buttons = popup.querySelectorAll('.carousel-btn');
+            
+            images.forEach(img => img.style.display = 'none');
+            buttons.forEach(btn => btn.style.background = '#3498db');
+            
+            images[index].style.display = 'block';
+            buttons[index].style.background = '#2980b9';
+        };
+
+        // Filter functionality
+        function setupFilters() {
+            const priceSlider = document.getElementById('priceRange');
+            const priceValue = document.getElementById('priceValue');
+            const maxPrice = Math.max(...compounds.map(c => c.starting_price || 0));
+            
+            priceSlider.max = maxPrice;
+            priceSlider.value = maxPrice;
+            priceValue.textContent = `Max Price: EGP ${maxPrice.toLocaleString()}`;
+
+            priceSlider.addEventListener('input', e => {
+                priceValue.textContent = `Max Price: EGP ${parseInt(e.target.value).toLocaleString()}`;
+                updateFilters();
+            });
+
+            document.querySelectorAll('.amenity-filter input').forEach(checkbox => {
+                checkbox.addEventListener('change', updateFilters);
+            });
+        }
+
+        // Update filters function
+        function updateFilters() {
+            const maxPrice = parseInt(document.getElementById('priceRange').value);
+            const selectedAmenities = Array.from(document.querySelectorAll('.amenity-filter input:checked'))
+                                         .map(checkbox => checkbox.value);
+
+            markersCluster.eachLayer(marker => {
+                const compound = marker.compoundData;
+                const priceMatch = (compound.starting_price || 0) <= maxPrice;
+                const amenitiesMatch = selectedAmenities.every(amenity => 
+                    compound.amenities.includes(amenity)
+                );
+                
+                marker.setOpacity(priceMatch && amenitiesMatch ? 1 : 0.3);
+                marker.setZIndexOffset(priceMatch && amenitiesMatch ? 1000 : 0);
+            });
+        }
+
+        // Reset filters function
+        window.resetFilters = () => {
+            document.getElementById('priceRange').value = document.getElementById('priceRange').max;
+            document.querySelectorAll('.amenity-filter input').forEach(checkbox => {
+                checkbox.checked = false;
+            });
+            updateFilters();
+            document.getElementById('priceValue').textContent = 
+                `Max Price: EGP ${parseInt(document.getElementById('priceRange').max).toLocaleString()}`;
+        };
+
+        // Start data loading
+        fetchCompoundsData();
+    </script>
+</body>
+</html>
