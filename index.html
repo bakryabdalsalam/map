@@ -35,6 +35,10 @@
       background: #f5f5f5;
     }
 
+    .mobile-heading {
+        display: none;
+    }
+
     /* Container for sidebar and map */
     #map-container {
       display: flex;
@@ -224,11 +228,24 @@
       }
     }
 
+    /* Mobile-only heading */
+    @media (max-width: 768px) {
+      .mobile-heading {
+        display: block;
+        text-align: center;
+        font-size: 1.2em;
+        color: #2c3e50;
+      }
+    }
+
   </style>
 </head>
 <body>
   <!-- Loading overlay -->
   <div class="loading">Loading compounds data...</div>
+
+  <!-- Mobile-only heading -->
+  <div class="mobile-heading">Made with ❤️ By Bakry</div>
 
   <!-- Toggle button for mobile -->
   <button id="sidebarToggle">Filters</button>
