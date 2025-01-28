@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 57,
         "name": "Marassi Resort",
         "location": [31.505, 29.924],
         "location_name": "North Coast, Egypt",
@@ -16,7 +16,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 58,
         "name": "Sahl Hasheesh",
         "location": [27.064, 33.891],
         "location_name": "Red Sea Coast, Egypt",
@@ -32,7 +32,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 59,
         "name": "Alamein Oasis",
         "location": [30.812, 28.936],
         "location_name": "North Coast, Egypt",
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 60,
         "name": "Hacienda Bay",
         "location": [31.422, 29.785],
         "location_name": "North Coast, Egypt",
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 61,
         "name": "Coral Heights",
         "location": [27.128, 33.802],
         "location_name": "Red Sea Coast, Egypt",
@@ -78,6 +78,2461 @@
             {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png", "caption": "Lobby Area"},
             {"url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-12-1.png", "caption": "Residential Units"}
         ]
-    }
+    },
+  {
+    "id": 1,
+    "name": "Compound 1",
+    "location": [31.505, 29.924],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 25000000,
+    "price": "From EGP 25,000,000",
+    "units_available": "Contact for availability",
+    "amenities": ["pool", "gym", "beach", "security", "spa", "golf course"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound1",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Compound 2",
+    "location": [27.064, 33.891],
+    "location_name": "Red Sea Coast, Egypt",
+    "starting_price": 18000000,
+    "price": "From EGP 18,000,000",
+    "units_available": "Limited availability",
+    "amenities": ["pool", "gym", "beach", "security", "golf course", "diving center"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound2",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Compound 3",
+    "location": [30.812, 28.936],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 22000000,
+    "price": "From EGP 22,000,000",
+    "units_available": "Available",
+    "amenities": ["pool", "kids area", "beach", "security", "tennis court"],
+    "completion_date": "2025-Q2",
+    "website": "https://www.example.com/compound3",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Compound 4",
+    "location": [31.422, 29.785],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 28500000,
+    "price": "From EGP 28,500,000",
+    "units_available": "Limited units",
+    "amenities": ["private beach", "marina", "spa", "gym", "24/7 security"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound4",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Compound 5",
+    "location": [27.128, 33.802],
+    "location_name": "Red Sea Coast, Egypt",
+    "starting_price": 19500000,
+    "price": "From EGP 19,500,000",
+    "units_available": "Pre-sale",
+    "amenities": ["diving center", "spa", "infinity pool", "kids club"],
+    "completion_date": "2026-Q1",
+    "website": "https://www.example.com/compound5",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
 
-]
+  {
+    "id": 6,
+    "name": "Compound 6",
+    "location": [29.996, 31.284],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 12000000,
+    "price": "From EGP 12,000,000",
+    "units_available": "Available",
+    "amenities": ["pool", "gym", "security", "kids area"],
+    "completion_date": "2024-Q3",
+    "website": "https://www.example.com/compound6",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Compound 7",
+    "location": [30.044, 31.235],
+    "location_name": "Cairo, Egypt",
+    "starting_price": 13500000,
+    "price": "From EGP 13,500,000",
+    "units_available": "Contact for availability",
+    "amenities": ["gym", "security", "parking", "green areas"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound7",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Compound 8",
+    "location": [31.032, 29.680],
+    "location_name": "Alexandria, Egypt",
+    "starting_price": 15000000,
+    "price": "From EGP 15,000,000",
+    "units_available": "Limited availability",
+    "amenities": ["pool", "beach", "security"],
+    "completion_date": "2025-Q4",
+    "website": "https://www.example.com/compound8",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Compound 9",
+    "location": [27.257, 33.812],
+    "location_name": "Red Sea Coast, Egypt",
+    "starting_price": 21000000,
+    "price": "From EGP 21,000,000",
+    "units_available": "Sold out",
+    "amenities": ["pool", "gym", "beach", "diving center"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound9",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Compound 10",
+    "location": [29.986, 31.425],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 10000000,
+    "price": "From EGP 10,000,000",
+    "units_available": "Available",
+    "amenities": ["security", "kids area", "parking"],
+    "completion_date": "2024-Q2",
+    "website": "https://www.example.com/compound10",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+
+  {
+    "id": 11,
+    "name": "Compound 11",
+    "location": [30.123, 31.467],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 12500000,
+    "price": "From EGP 12,500,000",
+    "units_available": "Pre-sale",
+    "amenities": ["pool", "gym", "spa"],
+    "completion_date": "2025-Q1",
+    "website": "https://www.example.com/compound11",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Compound 12",
+    "location": [31.500, 29.900],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 27000000,
+    "price": "From EGP 27,000,000",
+    "units_available": "Contact for availability",
+    "amenities": ["beach", "security", "golf course"],
+    "completion_date": "2024-Q4",
+    "website": "https://www.example.com/compound12",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Compound 13",
+    "location": [27.054, 33.922],
+    "location_name": "Red Sea Coast, Egypt",
+    "starting_price": 16000000,
+    "price": "From EGP 16,000,000",
+    "units_available": "Available",
+    "amenities": ["beach", "diving center", "kids area"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound13",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Compound 14",
+    "location": [31.600, 29.970],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 30000000,
+    "price": "From EGP 30,000,000",
+    "units_available": "Limited availability",
+    "amenities": ["pool", "golf course", "spa"],
+    "completion_date": "2026-Q2",
+    "website": "https://www.example.com/compound14",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Compound 15",
+    "location": [29.900, 31.330],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 9000000,
+    "price": "From EGP 9,000,000",
+    "units_available": "Sold out",
+    "amenities": ["pool", "security", "parking"],
+    "completion_date": "2025-Q3",
+    "website": "https://www.example.com/compound15",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+
+  {
+    "id": 16,
+    "name": "Compound 16",
+    "location": [30.101, 31.329],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 14000000,
+    "price": "From EGP 14,000,000",
+    "units_available": "Available",
+    "amenities": ["gym", "spa", "green areas"],
+    "completion_date": "2027-Q1",
+    "website": "https://www.example.com/compound16",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Compound 17",
+    "location": [31.045, 29.370],
+    "location_name": "Alexandria, Egypt",
+    "starting_price": 8500000,
+    "price": "From EGP 8,500,000",
+    "units_available": "Contact for availability",
+    "amenities": ["pool", "kids area", "security"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound17",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Compound 18",
+    "location": [30.200, 31.351],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 11000000,
+    "price": "From EGP 11,000,000",
+    "units_available": "Limited availability",
+    "amenities": ["gym", "parking", "green areas"],
+    "completion_date": "2025-Q2",
+    "website": "https://www.example.com/compound18",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Compound 19",
+    "location": [31.550, 29.900],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 32000000,
+    "price": "From EGP 32,000,000",
+    "units_available": "Pre-sale",
+    "amenities": ["beach", "golf course", "24/7 security"],
+    "completion_date": "2026-Q4",
+    "website": "https://www.example.com/compound19",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Compound 20",
+    "location": [27.004, 33.971],
+    "location_name": "Red Sea Coast, Egypt",
+    "starting_price": 25000000,
+    "price": "From EGP 25,000,000",
+    "units_available": "Sold out",
+    "amenities": ["diving center", "spa", "kids club"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound20",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+
+  {
+    "id": 21,
+    "name": "Compound 21",
+    "location": [30.555, 31.100],
+    "location_name": "Giza, Egypt",
+    "starting_price": 7000000,
+    "price": "From EGP 7,000,000",
+    "units_available": "Available",
+    "amenities": ["pool", "security", "parking"],
+    "completion_date": "2024-Q1",
+    "website": "https://www.example.com/compound21",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Compound 22",
+    "location": [30.629, 31.131],
+    "location_name": "Giza, Egypt",
+    "starting_price": 9500000,
+    "price": "From EGP 9,500,000",
+    "units_available": "Contact for availability",
+    "amenities": ["gym", "spa", "kids area"],
+    "completion_date": "2025-Q1",
+    "website": "https://www.example.com/compound22",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Compound 23",
+    "location": [30.720, 31.201],
+    "location_name": "Giza, Egypt",
+    "starting_price": 13000000,
+    "price": "From EGP 13,000,000",
+    "units_available": "Limited availability",
+    "amenities": ["pool", "green areas", "security"],
+    "completion_date": "2027-Q2",
+    "website": "https://www.example.com/compound23",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Compound 24",
+    "location": [30.850, 31.220],
+    "location_name": "Giza, Egypt",
+    "starting_price": 10500000,
+    "price": "From EGP 10,500,000",
+    "units_available": "Pre-sale",
+    "amenities": ["gym", "spa", "security"],
+    "completion_date": "2026-Q3",
+    "website": "https://www.example.com/compound24",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Compound 25",
+    "location": [30.677, 31.339],
+    "location_name": "Giza, Egypt",
+    "starting_price": 11500000,
+    "price": "From EGP 11,500,000",
+    "units_available": "Sold out",
+    "amenities": ["pool", "kids club", "parking"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound25",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+
+  {
+    "id": 26,
+    "name": "Compound 26",
+    "location": [29.899, 31.201],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 9500000,
+    "price": "From EGP 9,500,000",
+    "units_available": "Available",
+    "amenities": ["security", "green areas", "parking"],
+    "completion_date": "2024-Q4",
+    "website": "https://www.example.com/compound26",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Compound 27",
+    "location": [29.755, 31.215],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 10000000,
+    "price": "From EGP 10,000,000",
+    "units_available": "Contact for availability",
+    "amenities": ["gym", "pool", "kids area"],
+    "completion_date": "2025-Q2",
+    "website": "https://www.example.com/compound27",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Compound 28",
+    "location": [29.888, 31.245],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 17000000,
+    "price": "From EGP 17,000,000",
+    "units_available": "Limited availability",
+    "amenities": ["pool", "security", "spa"],
+    "completion_date": "2026-Q1",
+    "website": "https://www.example.com/compound28",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Compound 29",
+    "location": [29.734, 31.367],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 18500000,
+    "price": "From EGP 18,500,000",
+    "units_available": "Pre-sale",
+    "amenities": ["gym", "kids area", "green areas"],
+    "completion_date": "2025-Q4",
+    "website": "https://www.example.com/compound29",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Compound 30",
+    "location": [29.999, 31.111],
+    "location_name": "Cairo, Egypt",
+    "starting_price": 8000000,
+    "price": "From EGP 8,000,000",
+    "units_available": "Sold out",
+    "amenities": ["parking", "security", "gym"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound30",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+
+  {
+    "id": 31,
+    "name": "Compound 31",
+    "location": [31.500, 30.000],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 27500000,
+    "price": "From EGP 27,500,000",
+    "units_available": "Available",
+    "amenities": ["beach", "pool", "tennis court"],
+    "completion_date": "2027-Q3",
+    "website": "https://www.example.com/compound31",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Compound 32",
+    "location": [30.711, 29.882],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 22000000,
+    "price": "From EGP 22,000,000",
+    "units_available": "Contact for availability",
+    "amenities": ["golf course", "spa", "security"],
+    "completion_date": "2024-Q3",
+    "website": "https://www.example.com/compound32",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Compound 33",
+    "location": [30.900, 29.765],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 24500000,
+    "price": "From EGP 24,500,000",
+    "units_available": "Limited availability",
+    "amenities": ["pool", "private beach", "24/7 security"],
+    "completion_date": "2026-Q4",
+    "website": "https://www.example.com/compound33",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Compound 34",
+    "location": [31.200, 29.800],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 28500000,
+    "price": "From EGP 28,500,000",
+    "units_available": "Pre-sale",
+    "amenities": ["beach", "kids club", "gym"],
+    "completion_date": "2025-Q2",
+    "website": "https://www.example.com/compound34",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Compound 35",
+    "location": [31.310, 29.920],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 20500000,
+    "price": "From EGP 20,500,000",
+    "units_available": "Sold out",
+    "amenities": ["spa", "golf course", "gym"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound35",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+
+  {
+    "id": 36,
+    "name": "Compound 36",
+    "location": [30.555, 31.111],
+    "location_name": "Cairo, Egypt",
+    "starting_price": 7500000,
+    "price": "From EGP 7,500,000",
+    "units_available": "Available",
+    "amenities": ["security", "kids area", "green areas"],
+    "completion_date": "2025-Q3",
+    "website": "https://www.example.com/compound36",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Compound 37",
+    "location": [30.610, 31.210],
+    "location_name": "Giza, Egypt",
+    "starting_price": 9900000,
+    "price": "From EGP 9,900,000",
+    "units_available": "Contact for availability",
+    "amenities": ["gym", "pool", "parking"],
+    "completion_date": "2024-Q2",
+    "website": "https://www.example.com/compound37",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Compound 38",
+    "location": [30.467, 31.345],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 13000000,
+    "price": "From EGP 13,000,000",
+    "units_available": "Limited availability",
+    "amenities": ["pool", "gym", "security", "spa"],
+    "completion_date": "2027-Q4",
+    "website": "https://www.example.com/compound38",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Compound 39",
+    "location": [30.333, 31.600],
+    "location_name": "Cairo, Egypt",
+    "starting_price": 8500000,
+    "price": "From EGP 8,500,000",
+    "units_available": "Pre-sale",
+    "amenities": ["kids area", "parking", "security"],
+    "completion_date": "2025-Q1",
+    "website": "https://www.example.com/compound39",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Compound 40",
+    "location": [30.444, 31.555],
+    "location_name": "Cairo, Egypt",
+    "starting_price": 9200000,
+    "price": "From EGP 9,200,000",
+    "units_available": "Sold out",
+    "amenities": ["pool", "gym", "green areas"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound40",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+
+  {
+    "id": 41,
+    "name": "Compound 41",
+    "location": [31.111, 29.555],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 26500000,
+    "price": "From EGP 26,500,000",
+    "units_available": "Available",
+    "amenities": ["beach", "private pool", "security"],
+    "completion_date": "2026-Q2",
+    "website": "https://www.example.com/compound41",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Compound 42",
+    "location": [31.200, 29.670],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 21000000,
+    "price": "From EGP 21,000,000",
+    "units_available": "Contact for availability",
+    "amenities": ["golf course", "spa", "kids club"],
+    "completion_date": "2025-Q3",
+    "website": "https://www.example.com/compound42",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Compound 43",
+    "location": [31.310, 29.611],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 23500000,
+    "price": "From EGP 23,500,000",
+    "units_available": "Limited availability",
+    "amenities": ["pool", "marina", "security"],
+    "completion_date": "2027-Q1",
+    "website": "https://www.example.com/compound43",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Compound 44",
+    "location": [31.122, 29.712],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 26000000,
+    "price": "From EGP 26,000,000",
+    "units_available": "Pre-sale",
+    "amenities": ["private beach", "gym", "tennis court"],
+    "completion_date": "2025-Q4",
+    "website": "https://www.example.com/compound44",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Compound 45",
+    "location": [31.155, 29.855],
+    "location_name": "North Coast, Egypt",
+    "starting_price": 29500000,
+    "price": "From EGP 29,500,000",
+    "units_available": "Sold out",
+    "amenities": ["spa", "golf course", "kids area"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound45",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+
+  {
+    "id": 46,
+    "name": "Compound 46",
+    "location": [27.500, 33.821],
+    "location_name": "Red Sea Coast, Egypt",
+    "starting_price": 18000000,
+    "price": "From EGP 18,000,000",
+    "units_available": "Available",
+    "amenities": ["beach", "diving center", "security"],
+    "completion_date": "2024-Q2",
+    "website": "https://www.example.com/compound46",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Compound 47",
+    "location": [27.700, 33.911],
+    "location_name": "Red Sea Coast, Egypt",
+    "starting_price": 19000000,
+    "price": "From EGP 19,000,000",
+    "units_available": "Contact for availability",
+    "amenities": ["pool", "kids club", "green areas"],
+    "completion_date": "2026-Q1",
+    "website": "https://www.example.com/compound47",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Compound 48",
+    "location": [27.855, 33.722],
+    "location_name": "Red Sea Coast, Egypt",
+    "starting_price": 23000000,
+    "price": "From EGP 23,000,000",
+    "units_available": "Limited availability",
+    "amenities": ["spa", "pool", "security"],
+    "completion_date": "2027-Q2",
+    "website": "https://www.example.com/compound48",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Compound 49",
+    "location": [27.900, 33.600],
+    "location_name": "Red Sea Coast, Egypt",
+    "starting_price": 22000000,
+    "price": "From EGP 22,000,000",
+    "units_available": "Pre-sale",
+    "amenities": ["beach", "gym", "kids area"],
+    "completion_date": "2025-Q3",
+    "website": "https://www.example.com/compound49",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Compound 50",
+    "location": [27.550, 33.775],
+    "location_name": "Red Sea Coast, Egypt",
+    "starting_price": 24000000,
+    "price": "From EGP 24,000,000",
+    "units_available": "Sold out",
+    "amenities": ["diving center", "spa", "24/7 security"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound50",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+
+  {
+    "id": 51,
+    "name": "Compound 51",
+    "location": [29.931, 31.281],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 12000000,
+    "price": "From EGP 12,000,000",
+    "units_available": "Available",
+    "amenities": ["parking", "green areas", "kids area"],
+    "completion_date": "2024-Q1",
+    "website": "https://www.example.com/compound51",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Compound 52",
+    "location": [29.745, 31.299],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 14000000,
+    "price": "From EGP 14,000,000",
+    "units_available": "Contact for availability",
+    "amenities": ["pool", "gym", "spa"],
+    "completion_date": "2026-Q2",
+    "website": "https://www.example.com/compound52",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Compound 53",
+    "location": [29.880, 31.400],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 13000000,
+    "price": "From EGP 13,000,000",
+    "units_available": "Limited availability",
+    "amenities": ["security", "pool", "kids club"],
+    "completion_date": "2025-Q3",
+    "website": "https://www.example.com/compound53",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Compound 54",
+    "location": [29.750, 31.285],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 14500000,
+    "price": "From EGP 14,500,000",
+    "units_available": "Pre-sale",
+    "amenities": ["gym", "spa", "green areas"],
+    "completion_date": "2027-Q3",
+    "website": "https://www.example.com/compound54",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+        "caption": "Sample View"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Compound 55",
+    "location": [29.834, 31.240],
+    "location_name": "New Cairo, Egypt",
+    "starting_price": 8000000,
+    "price": "From EGP 8,000,000",
+    "units_available": "Sold out",
+    "amenities": ["pool", "kids area", "security"],
+    "completion_date": "Completed",
+    "website": "https://www.example.com/compound55",
+    "images": [
+      {
+        "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+        "caption": "Sample Exterior"
+      },
+      {
+        "id": 1,
+        "name": "Compound 1",
+        "location": [31.505, 29.924],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 25000000,
+        "price": "From EGP 25,000,000",
+        "units_available": "Contact for availability",
+        "amenities": ["pool", "gym", "beach", "security", "spa", "golf course"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound1",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Compound 2",
+        "location": [27.064, 33.891],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 18000000,
+        "price": "From EGP 18,000,000",
+        "units_available": "Limited availability",
+        "amenities": ["pool", "gym", "beach", "security", "golf course", "diving center"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound2",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Compound 3",
+        "location": [30.812, 28.936],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 22000000,
+        "price": "From EGP 22,000,000",
+        "units_available": "Available",
+        "amenities": ["pool", "kids area", "beach", "security", "tennis court"],
+        "completion_date": "2025-Q2",
+        "website": "https://www.example.com/compound3",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Compound 4",
+        "location": [31.422, 29.785],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 28500000,
+        "price": "From EGP 28,500,000",
+        "units_available": "Limited units",
+        "amenities": ["private beach", "marina", "spa", "gym", "24/7 security"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound4",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Compound 5",
+        "location": [27.128, 33.802],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 19500000,
+        "price": "From EGP 19,500,000",
+        "units_available": "Pre-sale",
+        "amenities": ["diving center", "spa", "infinity pool", "kids club"],
+        "completion_date": "2026-Q1",
+        "website": "https://www.example.com/compound5",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-12-1.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+    
+      {
+        "id": 6,
+        "name": "Compound 6",
+        "location": [29.996, 31.284],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 12000000,
+        "price": "From EGP 12,000,000",
+        "units_available": "Available",
+        "amenities": ["pool", "gym", "security", "kids area"],
+        "completion_date": "2024-Q3",
+        "website": "https://www.example.com/compound6",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Compound 7",
+        "location": [30.044, 31.235],
+        "location_name": "Cairo, Egypt",
+        "starting_price": 13500000,
+        "price": "From EGP 13,500,000",
+        "units_available": "Contact for availability",
+        "amenities": ["gym", "security", "parking", "green areas"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound7",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Compound 8",
+        "location": [31.032, 29.680],
+        "location_name": "Alexandria, Egypt",
+        "starting_price": 15000000,
+        "price": "From EGP 15,000,000",
+        "units_available": "Limited availability",
+        "amenities": ["pool", "beach", "security"],
+        "completion_date": "2025-Q4",
+        "website": "https://www.example.com/compound8",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Compound 9",
+        "location": [27.257, 33.812],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 21000000,
+        "price": "From EGP 21,000,000",
+        "units_available": "Sold out",
+        "amenities": ["pool", "gym", "beach", "diving center"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound9",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Compound 10",
+        "location": [29.986, 31.425],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 10000000,
+        "price": "From EGP 10,000,000",
+        "units_available": "Available",
+        "amenities": ["security", "kids area", "parking"],
+        "completion_date": "2024-Q2",
+        "website": "https://www.example.com/compound10",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+    
+      {
+        "id": 11,
+        "name": "Compound 11",
+        "location": [30.123, 31.467],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 12500000,
+        "price": "From EGP 12,500,000",
+        "units_available": "Pre-sale",
+        "amenities": ["pool", "gym", "spa"],
+        "completion_date": "2025-Q1",
+        "website": "https://www.example.com/compound11",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Compound 12",
+        "location": [31.500, 29.900],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 27000000,
+        "price": "From EGP 27,000,000",
+        "units_available": "Contact for availability",
+        "amenities": ["beach", "security", "golf course"],
+        "completion_date": "2024-Q4",
+        "website": "https://www.example.com/compound12",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Compound 13",
+        "location": [27.054, 33.922],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 16000000,
+        "price": "From EGP 16,000,000",
+        "units_available": "Available",
+        "amenities": ["beach", "diving center", "kids area"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound13",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Compound 14",
+        "location": [31.600, 29.970],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 30000000,
+        "price": "From EGP 30,000,000",
+        "units_available": "Limited availability",
+        "amenities": ["pool", "golf course", "spa"],
+        "completion_date": "2026-Q2",
+        "website": "https://www.example.com/compound14",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Compound 15",
+        "location": [29.900, 31.330],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 9000000,
+        "price": "From EGP 9,000,000",
+        "units_available": "Sold out",
+        "amenities": ["pool", "security", "parking"],
+        "completion_date": "2025-Q3",
+        "website": "https://www.example.com/compound15",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+    
+      {
+        "id": 16,
+        "name": "Compound 16",
+        "location": [30.101, 31.329],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 14000000,
+        "price": "From EGP 14,000,000",
+        "units_available": "Available",
+        "amenities": ["gym", "spa", "green areas"],
+        "completion_date": "2027-Q1",
+        "website": "https://www.example.com/compound16",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Compound 17",
+        "location": [31.045, 29.370],
+        "location_name": "Alexandria, Egypt",
+        "starting_price": 8500000,
+        "price": "From EGP 8,500,000",
+        "units_available": "Contact for availability",
+        "amenities": ["pool", "kids area", "security"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound17",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Compound 18",
+        "location": [30.200, 31.351],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 11000000,
+        "price": "From EGP 11,000,000",
+        "units_available": "Limited availability",
+        "amenities": ["gym", "parking", "green areas"],
+        "completion_date": "2025-Q2",
+        "website": "https://www.example.com/compound18",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Compound 19",
+        "location": [31.550, 29.900],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 32000000,
+        "price": "From EGP 32,000,000",
+        "units_available": "Pre-sale",
+        "amenities": ["beach", "golf course", "24/7 security"],
+        "completion_date": "2026-Q4",
+        "website": "https://www.example.com/compound19",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Compound 20",
+        "location": [27.004, 33.971],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 25000000,
+        "price": "From EGP 25,000,000",
+        "units_available": "Sold out",
+        "amenities": ["diving center", "spa", "kids club"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound20",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+    
+      {
+        "id": 21,
+        "name": "Compound 21",
+        "location": [30.555, 31.100],
+        "location_name": "Giza, Egypt",
+        "starting_price": 7000000,
+        "price": "From EGP 7,000,000",
+        "units_available": "Available",
+        "amenities": ["pool", "security", "parking"],
+        "completion_date": "2024-Q1",
+        "website": "https://www.example.com/compound21",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Compound 22",
+        "location": [30.629, 31.131],
+        "location_name": "Giza, Egypt",
+        "starting_price": 9500000,
+        "price": "From EGP 9,500,000",
+        "units_available": "Contact for availability",
+        "amenities": ["gym", "spa", "kids area"],
+        "completion_date": "2025-Q1",
+        "website": "https://www.example.com/compound22",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Compound 23",
+        "location": [30.720, 31.201],
+        "location_name": "Giza, Egypt",
+        "starting_price": 13000000,
+        "price": "From EGP 13,000,000",
+        "units_available": "Limited availability",
+        "amenities": ["pool", "green areas", "security"],
+        "completion_date": "2027-Q2",
+        "website": "https://www.example.com/compound23",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Compound 24",
+        "location": [30.850, 31.220],
+        "location_name": "Giza, Egypt",
+        "starting_price": 10500000,
+        "price": "From EGP 10,500,000",
+        "units_available": "Pre-sale",
+        "amenities": ["gym", "spa", "security"],
+        "completion_date": "2026-Q3",
+        "website": "https://www.example.com/compound24",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Compound 25",
+        "location": [30.677, 31.339],
+        "location_name": "Giza, Egypt",
+        "starting_price": 11500000,
+        "price": "From EGP 11,500,000",
+        "units_available": "Sold out",
+        "amenities": ["pool", "kids club", "parking"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound25",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+    
+      {
+        "id": 26,
+        "name": "Compound 26",
+        "location": [29.899, 31.201],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 9500000,
+        "price": "From EGP 9,500,000",
+        "units_available": "Available",
+        "amenities": ["security", "green areas", "parking"],
+        "completion_date": "2024-Q4",
+        "website": "https://www.example.com/compound26",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Compound 27",
+        "location": [29.755, 31.215],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 10000000,
+        "price": "From EGP 10,000,000",
+        "units_available": "Contact for availability",
+        "amenities": ["gym", "pool", "kids area"],
+        "completion_date": "2025-Q2",
+        "website": "https://www.example.com/compound27",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Compound 28",
+        "location": [29.888, 31.245],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 17000000,
+        "price": "From EGP 17,000,000",
+        "units_available": "Limited availability",
+        "amenities": ["pool", "security", "spa"],
+        "completion_date": "2026-Q1",
+        "website": "https://www.example.com/compound28",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Compound 29",
+        "location": [29.734, 31.367],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 18500000,
+        "price": "From EGP 18,500,000",
+        "units_available": "Pre-sale",
+        "amenities": ["gym", "kids area", "green areas"],
+        "completion_date": "2025-Q4",
+        "website": "https://www.example.com/compound29",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Compound 30",
+        "location": [29.999, 31.111],
+        "location_name": "Cairo, Egypt",
+        "starting_price": 8000000,
+        "price": "From EGP 8,000,000",
+        "units_available": "Sold out",
+        "amenities": ["parking", "security", "gym"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound30",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+    
+      {
+        "id": 31,
+        "name": "Compound 31",
+        "location": [31.500, 30.000],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 27500000,
+        "price": "From EGP 27,500,000",
+        "units_available": "Available",
+        "amenities": ["beach", "pool", "tennis court"],
+        "completion_date": "2027-Q3",
+        "website": "https://www.example.com/compound31",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Compound 32",
+        "location": [30.711, 29.882],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 22000000,
+        "price": "From EGP 22,000,000",
+        "units_available": "Contact for availability",
+        "amenities": ["golf course", "spa", "security"],
+        "completion_date": "2024-Q3",
+        "website": "https://www.example.com/compound32",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Compound 33",
+        "location": [30.900, 29.765],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 24500000,
+        "price": "From EGP 24,500,000",
+        "units_available": "Limited availability",
+        "amenities": ["pool", "private beach", "24/7 security"],
+        "completion_date": "2026-Q4",
+        "website": "https://www.example.com/compound33",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Compound 34",
+        "location": [31.200, 29.800],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 28500000,
+        "price": "From EGP 28,500,000",
+        "units_available": "Pre-sale",
+        "amenities": ["beach", "kids club", "gym"],
+        "completion_date": "2025-Q2",
+        "website": "https://www.example.com/compound34",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Compound 35",
+        "location": [31.310, 29.920],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 20500000,
+        "price": "From EGP 20,500,000",
+        "units_available": "Sold out",
+        "amenities": ["spa", "golf course", "gym"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound35",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+    
+      {
+        "id": 36,
+        "name": "Compound 36",
+        "location": [30.555, 31.111],
+        "location_name": "Cairo, Egypt",
+        "starting_price": 7500000,
+        "price": "From EGP 7,500,000",
+        "units_available": "Available",
+        "amenities": ["security", "kids area", "green areas"],
+        "completion_date": "2025-Q3",
+        "website": "https://www.example.com/compound36",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Compound 37",
+        "location": [30.610, 31.210],
+        "location_name": "Giza, Egypt",
+        "starting_price": 9900000,
+        "price": "From EGP 9,900,000",
+        "units_available": "Contact for availability",
+        "amenities": ["gym", "pool", "parking"],
+        "completion_date": "2024-Q2",
+        "website": "https://www.example.com/compound37",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Compound 38",
+        "location": [30.467, 31.345],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 13000000,
+        "price": "From EGP 13,000,000",
+        "units_available": "Limited availability",
+        "amenities": ["pool", "gym", "security", "spa"],
+        "completion_date": "2027-Q4",
+        "website": "https://www.example.com/compound38",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Compound 39",
+        "location": [30.333, 31.600],
+        "location_name": "Cairo, Egypt",
+        "starting_price": 8500000,
+        "price": "From EGP 8,500,000",
+        "units_available": "Pre-sale",
+        "amenities": ["kids area", "parking", "security"],
+        "completion_date": "2025-Q1",
+        "website": "https://www.example.com/compound39",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Compound 40",
+        "location": [30.444, 31.555],
+        "location_name": "Cairo, Egypt",
+        "starting_price": 9200000,
+        "price": "From EGP 9,200,000",
+        "units_available": "Sold out",
+        "amenities": ["pool", "gym", "green areas"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound40",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+    
+      {
+        "id": 41,
+        "name": "Compound 41",
+        "location": [31.111, 29.555],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 26500000,
+        "price": "From EGP 26,500,000",
+        "units_available": "Available",
+        "amenities": ["beach", "private pool", "security"],
+        "completion_date": "2026-Q2",
+        "website": "https://www.example.com/compound41",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Compound 42",
+        "location": [31.200, 29.670],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 21000000,
+        "price": "From EGP 21,000,000",
+        "units_available": "Contact for availability",
+        "amenities": ["golf course", "spa", "kids club"],
+        "completion_date": "2025-Q3",
+        "website": "https://www.example.com/compound42",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Compound 43",
+        "location": [31.310, 29.611],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 23500000,
+        "price": "From EGP 23,500,000",
+        "units_available": "Limited availability",
+        "amenities": ["pool", "marina", "security"],
+        "completion_date": "2027-Q1",
+        "website": "https://www.example.com/compound43",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Compound 44",
+        "location": [31.122, 29.712],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 26000000,
+        "price": "From EGP 26,000,000",
+        "units_available": "Pre-sale",
+        "amenities": ["private beach", "gym", "tennis court"],
+        "completion_date": "2025-Q4",
+        "website": "https://www.example.com/compound44",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Compound 45",
+        "location": [31.155, 29.855],
+        "location_name": "North Coast, Egypt",
+        "starting_price": 29500000,
+        "price": "From EGP 29,500,000",
+        "units_available": "Sold out",
+        "amenities": ["spa", "golf course", "kids area"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound45",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+    
+      {
+        "id": 46,
+        "name": "Compound 46",
+        "location": [27.500, 33.821],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 18000000,
+        "price": "From EGP 18,000,000",
+        "units_available": "Available",
+        "amenities": ["beach", "diving center", "security"],
+        "completion_date": "2024-Q2",
+        "website": "https://www.example.com/compound46",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Compound 47",
+        "location": [27.700, 33.911],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 19000000,
+        "price": "From EGP 19,000,000",
+        "units_available": "Contact for availability",
+        "amenities": ["pool", "kids club", "green areas"],
+        "completion_date": "2026-Q1",
+        "website": "https://www.example.com/compound47",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Compound 48",
+        "location": [27.855, 33.722],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 23000000,
+        "price": "From EGP 23,000,000",
+        "units_available": "Limited availability",
+        "amenities": ["spa", "pool", "security"],
+        "completion_date": "2027-Q2",
+        "website": "https://www.example.com/compound48",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Compound 49",
+        "location": [27.900, 33.600],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 22000000,
+        "price": "From EGP 22,000,000",
+        "units_available": "Pre-sale",
+        "amenities": ["beach", "gym", "kids area"],
+        "completion_date": "2025-Q3",
+        "website": "https://www.example.com/compound49",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Compound 50",
+        "location": [27.550, 33.775],
+        "location_name": "Red Sea Coast, Egypt",
+        "starting_price": 24000000,
+        "price": "From EGP 24,000,000",
+        "units_available": "Sold out",
+        "amenities": ["diving center", "spa", "24/7 security"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound50",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+    
+      {
+        "id": 51,
+        "name": "Compound 51",
+        "location": [29.931, 31.281],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 12000000,
+        "price": "From EGP 12,000,000",
+        "units_available": "Available",
+        "amenities": ["parking", "green areas", "kids area"],
+        "completion_date": "2024-Q1",
+        "website": "https://www.example.com/compound51",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "Compound 52",
+        "location": [29.745, 31.299],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 14000000,
+        "price": "From EGP 14,000,000",
+        "units_available": "Contact for availability",
+        "amenities": ["pool", "gym", "spa"],
+        "completion_date": "2026-Q2",
+        "website": "https://www.example.com/compound52",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "Compound 53",
+        "location": [29.880, 31.400],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 13000000,
+        "price": "From EGP 13,000,000",
+        "units_available": "Limited availability",
+        "amenities": ["security", "pool", "kids club"],
+        "completion_date": "2025-Q3",
+        "website": "https://www.example.com/compound53",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "Compound 54",
+        "location": [29.750, 31.285],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 14500000,
+        "price": "From EGP 14,500,000",
+        "units_available": "Pre-sale",
+        "amenities": ["gym", "spa", "green areas"],
+        "completion_date": "2027-Q3",
+        "website": "https://www.example.com/compound54",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "name": "Compound 55",
+        "location": [29.834, 31.240],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 8000000,
+        "price": "From EGP 8,000,000",
+        "units_available": "Sold out",
+        "amenities": ["pool", "kids area", "security"],
+        "completion_date": "Completed",
+        "website": "https://www.example.com/compound55",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "Compound 56",
+        "location": [30.111, 31.200],
+        "location_name": "New Cairo, Egypt",
+        "starting_price": 10000000,
+        "price": "From EGP 10,000,000",
+        "units_available": "Available",
+        "amenities": ["gym", "spa", "kids area"],
+        "completion_date": "2026-Q4",
+        "website": "https://www.example.com/compound56",
+        "images": [
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-11-1-1240x720.jpg",
+            "caption": "Sample Exterior"
+          },
+          {
+            "url": "https://affsquare.io/wp-content/uploads/2024/12/Entrada-Avenue-retail-9-1-1240x669.png",
+            "caption": "Sample View"
+          }
+        ]
+      }
+    ]
